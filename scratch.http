@@ -1,0 +1,5 @@
+@baseUrl = http://localhost:8080/v1
+
+### Healtch Check
+GET {{baseUrl}}/health
+Accept: application/json
